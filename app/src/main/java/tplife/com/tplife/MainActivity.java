@@ -16,8 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void abv() {
-       String hell;
-
+       String zhoujiyu;
     }
 
     private void ABD(int a) {
