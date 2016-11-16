@@ -1,9 +1,7 @@
 package tplife.com.tplife;
 
-import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-
-import java.util.ArrayList;
+import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,10 +12,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
     }
 
-
-    private void dgdgggggggggggggggggggggggg() {
-
-    }
 
     private void abv() {
 
