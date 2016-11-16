@@ -15,11 +15,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    private void abv() {
-       String zhoujiyudd;
-    }
 
-    private void ABD(int a) {
+    private void ABDds(int a) {
         try {
 
         } catch (Exception e) {
@@ -27,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         } finally {
         }
 
-        super.onCreate(savedInstanceState);
+
     }
 
 
