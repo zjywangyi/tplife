@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void abv() {
-       String zhoujiyu;
+       String zhoujiyudd;
     }
 
     private void ABD(int a) {
