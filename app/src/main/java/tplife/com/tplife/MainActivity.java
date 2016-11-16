@@ -26,5 +26,27 @@ public class MainActivity extends AppCompatActivity {
             e.printStackTrace();
         } finally {
         }
+
+        super.onCreate(savedInstanceState);
+    }
+
+
+    private void abv() {
+
+    }
+    private void abv1() {
+
+    }
+    private void abv2() {
+
+    }
+
+    private void ABD(int a) {
+        try {
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+        }
     }
 }
