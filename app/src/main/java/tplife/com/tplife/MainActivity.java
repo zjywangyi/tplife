@@ -30,7 +30,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void test(){
 
-        System.out.println("hahha");
+
+        System.out.println("ddd d ");
+
 
     }
 
