@@ -28,6 +28,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    private void test(){
+
+        System.out.println("hahha");
+
+    }
+
+
+
     private void abv() {
 
     }
