@@ -2,11 +2,7 @@ package tplife.com.tplife;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
-import android.support.design.widget.TabLayout;
-import java.util.ArrayList;
+
 
 import tplife.com.tplife.common.PlayerManager;
 
@@ -100,5 +96,25 @@ public class MainActivity extends AppCompatActivity implements PlayerManager.Pla
             e.printStackTrace();
         } finally {
         }
+    }
+
+    @Override
+    public void onComplete() {
+
+    }
+
+    @Override
+    public void onError() {
+
+    }
+
+    @Override
+    public void onLoading() {
+
+    }
+
+    @Override
+    public void onPlay() {
+
     }
 }
