@@ -1,10 +1,6 @@
 package tplife.com.tplife;
 
-import android.app.Activity;
-import android.graphics.Color;
-import android.os.Build;
 import android.os.Bundle;
-
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.Window;
@@ -54,6 +50,8 @@ public class MainActivity extends AppCompatActivity implements PlayerManager.Pla
         //initPlayer();
 
         System.out.print("DDDDDD");
+
+        //test
     }
 
 
@@ -103,38 +101,4 @@ public class MainActivity extends AppCompatActivity implements PlayerManager.Pla
         } finally {
         }
     }
-
-
-    private void initPlayer() {
-        player = new PlayerManager(this);
-        player.setFullScreenOnly(true);
-        player.setScaleType(PlayerManager.SCALETYPE_FILLPARENT);
-        player.playInFullScreen(true);
-
-        player.setPlayerStateListener(this);
-
-        player.play("http://zv.3gv.ifeng.com/live/zhongwen800k.m3u8");
-
-    }
-
-    @Override
-    public void onComplete() {
-
-    }
-
-    @Override
-    public void onError() {
-
-    }
-
-    @Override
-    public void onLoading() {
-
-    }
-
-    @Override
-    public void onPlay() {
-
-    }
-
 }
