@@ -9,4 +9,8 @@
     <color name="colorAccent">
         #FF4081
     </color>
+
+    <color name="colorTran">
+        #00000000
+    </color>
 </resources>
